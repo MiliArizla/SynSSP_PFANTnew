@@ -27,7 +27,7 @@ IN SUMMARY, IN YOUR TEST DIRECTORY, DO:
   > link.py
   > rm atoms.dat
   > ln -s ../SSP_package_PFANTnew/atoms.dat atoms.dat
-  > cp -r ../SSP_package_PFANTnew/* .
+  > cp -r ../SSP_package_PFANTnew/* .  
 
 
  
