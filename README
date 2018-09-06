@@ -1,0 +1,36 @@
+-------------------------------------------------------
+Package to calculate synthetic stellar spectra and SSPs
+-------------------------------------------------------
+
+**** RUNNING TESTS --> USE ANOTHER DIRECTORY ****
+
+Before running the scripts, use python script:
+
+  > link.py
+
+to create symbolic links to the following files:
+  - absoru2.dat
+  - atoms.dat**  
+  - grid.mod
+  - hmap.dat
+  - molecules.dat
+  - partit.dat
+
+(link.py --> see https://trevisanj.github.io/PFANT/ AND https://trevisanj.github.io/pyfant/)
+
+** atoms.dat --> USE THE ONE IN THIS DIRECTORY INSTEAD
+     > ln -s ../SSP_package_PFANTnew/atoms.dat atoms.dat
+
+****************************************
+IN SUMMARY, IN YOUR TEST DIRECTORY, DO:
+****************************************
+  > link.py
+  > rm atoms.dat
+  > ln -s ../SSP_package_PFANTnew/atoms.dat atoms.dat
+  > cp -r ../SSP_package_PFANTnew/* .
+
+
+ 
+Last updated: 06 September 2019
+
+
