@@ -28,7 +28,7 @@ IN SUMMARY, IN YOUR TEST DIRECTORY, DO:
   > rm atoms.dat
   > ln -s ../SSP_package_PFANTnew/atoms.dat atoms.dat
   > cp -r ../SSP_package_PFANTnew/* .  
-
+  
 
  
 Last updated: 06 September 2019
